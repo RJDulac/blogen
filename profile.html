@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap Theme</title>
+</head>
+
+<body>
+    <!-- Start Here -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Blogen</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-2">
+                        <a href="index.html" class="nav-link">Dashboard</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a href="posts.html" class="nav-link">Posts</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a href="categories.html" class="nav-link">Categories</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a href="users.html" class="nav-link">Users</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown mr-3">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                            <i class="fas fa-user"></i> Welcome Ryan
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="profile.html" class="dropdown-item">
+                                <i class="fas fa-user-circle"></i> Profile
+                            </a>
+                            <a href="settings.html" class="dropdown-item">
+                                <i class="fas fa-cog"></i> Settings
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">
+                            <i class="fas fa-user-times"></i> Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+
+    <header id="main-header" class="py-2 bg-primary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>
+                        <i class="fas fa-user"> Edit Profile</i>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- actions -->
+    <section id="actions" class="py-4 mb-4 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="index.html" class="btn btn-light btn-block">
+                        <i class="fas fa-arrow-left"></i> Back To Dashboard
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#" class="btn btn-success btn-block">
+                        <i class="fas fa-lock"></i> Change Password
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#" class="btn btn-danger btn-block">
+                        <i class="fas fa-trash"></i> Delete Account
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile -->
+    <section id="profile">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Edit Profile</h4>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" value="Ryan Dulac">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" value="test@test.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="bio">Bio</label>
+                                    <textarea class="form-control" name="editor1">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, quam vero quae soluta voluptatem sunt harum assumenda vel laboriosam dolores molestias consequatur. Ullam distinctio nobis sunt aut quos quasi laudantium!
+                                        Totam, doloribus. Sed accusantium, facere est sint delectus dolorum rem. Ullam consequuntur nesciunt quisquam sed nostrum earum perspiciatis quo quibusdam iusto cumque quod magnam unde voluptatum, omnis quae! Nesciunt, voluptatum?
+                                        Consequatur nam minima nemo cupiditate id reiciendis quasi, quos voluptatibus iusto culpa vero eligendi doloremque possimus vitae provident numquam, magnam optio voluptatum. Amet rerum dolore et, quam recusandae exercitationem voluptas.
+                                        Suscipit iure maiores soluta optio, hic iste nostrum, veniam, quia eius officiis quos quod cum. Eligendi quas, et culpa nemo nulla quis maiores fugiat? Adipisci quia earum iusto quaerat nulla?
+                                        Odio vel aliquam aperiam perferendis commodi porro vero at, ullam cupiditate ad numquam ducimus deleniti. Aperiam nisi voluptatum quo at minima vero ad et. Iusto quos obcaecati aperiam commodi voluptas?
+                                        Ullam adipisci accusantium necessitatibus nostrum nisi, iure amet beatae pariatur quam porro laboriosam sequi reiciendis fuga praesentium ratione omnis quaerat commodi rem quas. Corrupti ea quam asperiores aliquam? Quas, veritatis.
+                                        Consequuntur quae error sapiente tenetur impedit inventore, atque, minus numquam ex incidunt repellat. Blanditiis amet eum unde, possimus corporis velit dolorem quibusdam vel quaerat consequatur eius doloribus, quo asperiores quos.
+                                        Modi ex, autem provident fugit laborum aliquid officia dolor soluta assumenda perspiciatis totam deleniti nesciunt nostrum impedit molestiae at distinctio quo odio numquam veritatis quas corrupti consectetur velit. In, eligendi!
+                                        Distinctio provident totam voluptate magni consequatur iusto excepturi tempore adipisci, sapiente facere minus nesciunt inventore facilis fugiat neque, dolorum odio delectus veniam quaerat incidunt nulla dolore ipsum aliquid fugit. Saepe?
+                                        Repellendus quasi exercitationem eos consectetur saepe dolorem dicta minima optio ipsum iste corrupti expedita officia tempore consequuntur, facilis sed, maxime quam itaque culpa voluptatum deleniti omnis eveniet laborum? Reiciendis, quas?
+                                        Deserunt unde dicta deleniti tenetur ipsam debitis esse sed aut, doloremque sit assumenda repudiandae dolorem soluta, nesciunt beatae fuga magnam iusto molestias minima. Reiciendis nisi error officiis incidunt ullam. Aliquid!
+                                        Et saepe quam velit numquam quasi rerum optio distinctio, eligendi ad laudantium iure quidem vero voluptatem mollitia laborum quos? Accusamus adipisci possimus ad repellendus ea consequuntur perspiciatis eos corrupti accusantium!
+                                        Saepe praesentium corporis inventore sit officiis repellendus suscipit aut non odio ratione nemo illum impedit modi sapiente porro unde aperiam iusto fuga illo quis, pariatur quia recusandae? Est, deleniti soluta.
+                                        Nulla aliquam, inventore voluptas libero tempora sed at quam? Facere eius ab debitis. Ea aperiam, quo quaerat aut nostrum veritatis cum atque mollitia iure quidem facere quia, cumque, at quod.
+                                        Amet, porro optio ipsam hic illum labore impedit assumenda neque autem vel cumque eos nihil consequuntur sunt a tempora fugit at laudantium itaque officiis delectus facere natus reiciendis! Aliquid, at.
+                                        Deleniti aliquam dolores laboriosam repellendus quia tempora perspiciatis sapiente quam animi reiciendis culpa, molestias ratione aliquid commodi dignissimos sequi alias exercitationem molestiae praesentium, iusto porro. Laborum quam fuga illum itaque.
+                                        Aperiam tenetur minus harum obcaecati. Animi atque dignissimos eaque voluptas laudantium ipsa recusandae perferendis tempore et ut vitae similique odit fugiat nam nihil perspiciatis dolorem assumenda eligendi rem, necessitatibus obcaecati?
+                                        Esse nobis et quis ab excepturi saepe quam, molestias eum aut dolorum ducimus tenetur numquam quasi minima eligendi maxime facilis exercitationem voluptate corporis! Incidunt ipsa quae, adipisci molestiae quod eligendi!
+                                        Quam facere rem delectus omnis, quibusdam facilis sequi. Facilis iure quibusdam repellendus natus, dolor error qui laboriosam vero! Beatae eligendi ducimus culpa corrupti vel reprehenderit dolorem magni ad sit necessitatibus.
+                                        Eaque facilis reprehenderit culpa voluptatum deleniti natus neque alias rem! Voluptatum sapiente magni nobis, voluptatem, consectetur suscipit obcaecati inventore accusantium quaerat architecto commodi atque minima officia nam cumque velit molestias!
+                                        Natus perferendis tenetur ut id facilis quasi accusantium corrupti quia voluptas. Ut alias, nisi dignissimos, aut sunt facilis veniam magnam eligendi natus quisquam iste mollitia. Perspiciatis sint quisquam hic sequi?
+                                        Laborum hic labore nam, explicabo architecto ipsum illum, aliquid quae tenetur eius at voluptates! Nihil, ea nobis aperiam animi laudantium a repellat voluptatem sunt eveniet, laborum, in debitis corrupti? Mollitia.
+                                        Minus quis enim numquam modi animi necessitatibus quos, magnam a asperiores, eligendi quod ipsum excepturi, ut quaerat dignissimos nihil ipsa dolore quasi cum expedita aspernatur. Laboriosam qui commodi nisi. Voluptatem.
+                                        Tempora dolore obcaecati quae? Asperiores, temporibus. Excepturi debitis dolore iure nobis eius, ipsum, sapiente, quos totam placeat sed quia provident aliquam cum quidem. Error delectus et praesentium unde, ducimus autem.
+                                        Tenetur iure id nemo illum quod ea asperiores repellat qui reiciendis quos aliquam corrupti tempore, atque recusandae, magni impedit molestias officia placeat perspiciatis praesentium dolorem et? Modi ad maiores accusamus!
+                                        Voluptate ipsam porro omnis quod assumenda minima veniam dolorum vitae. Modi, aut alias. Dolorem rem non ut cumque ratione soluta itaque doloremque iusto aliquid, ducimus, accusantium quidem veritatis atque nobis.
+                                        Dolorem dolore excepturi qui, repellat numquam quasi consectetur. Commodi sapiente nam praesentium doloremque asperiores harum incidunt illo? Dolorum exercitationem quidem cupiditate numquam, cum distinctio labore nemo quod reiciendis illo ipsa!
+                                        Accusamus odit nihil aspernatur, vel ratione odio dolorum, assumenda inventore modi quaerat in veritatis at quo optio vero expedita voluptas exercitationem sint qui ex ducimus libero sed. Doloremque, at sint.
+                                        Exercitationem iusto laudantium molestiae id qui facere aut tempore, corrupti recusandae consequuntur at repudiandae laborum earum iste alias dignissimos est sint perspiciatis tenetur aperiam, laboriosam, illum enim! Odit, nulla facere!
+                                        Dolores doloribus quaerat, autem ad at nulla aliquid commodi exercitationem recusandae repellat error iste qui possimus excepturi doloremque porro et ex incidunt a voluptas expedita? Quia soluta reprehenderit voluptatem rerum.
+                                        Aliquam tempore natus, dolores debitis excepturi, harum eius ipsa sit quasi consequuntur dolorem alias. Explicabo consequuntur, odio dolorem, officiis exercitationem quasi tempore ut dolor, eveniet expedita iusto repellat quia quidem.
+                                        Blanditiis tenetur repellendus quaerat iste tempore nemo corporis possimus. Minima minus qui ipsum delectus ullam error, quibusdam tenetur eius dicta adipisci, totam officiis? Iure minus omnis amet assumenda! Natus, aperiam.
+                                        Soluta distinctio nam ex optio aspernatur facere alias magni! Facilis accusantium saepe error omnis earum molestiae ipsa velit aliquam eum aliquid corporis, cupiditate nemo dolore ex iste illum possimus incidunt!
+                                        Alias modi excepturi tenetur rem quisquam dicta quia impedit, voluptatibus voluptate ad? Tempora a impedit omnis. Magnam assumenda enim impedit, provident excepturi, velit aspernatur, ipsam natus amet optio id rem.
+                                        Iure, sequi reiciendis perferendis sint asperiores exercitationem est tempora dolores? Mollitia fuga eaque, tempore delectus magnam quisquam dolore. Nemo, hic. Doloremque, at eaque? Reprehenderit iure eius expedita impedit commodi suscipit.
+                                        Sequi optio excepturi libero repudiandae laudantium temporibus ea? Cum expedita, rem error deserunt inventore quas reprehenderit dolorem eveniet. Rem assumenda laboriosam ad eum facere voluptatibus mollitia ea unde nisi consequuntur!
+                                        Possimus minus ipsum velit hic cupiditate quos quia debitis dignissimos ut blanditiis saepe libero dicta deleniti, cumque ducimus aperiam quae odit illo aliquam impedit magnam aspernatur minima? Nemo, laudantium rerum.
+                                        Unde rerum ducimus obcaecati laudantium pariatur accusantium veniam repellat voluptates sint omnis! Iusto officiis voluptates harum assumenda accusantium. Necessitatibus neque ex nulla laudantium, pariatur debitis itaque quasi sequi tenetur praesentium?
+                                        Doloribus distinctio, ab maxime beatae voluptas veritatis at debitis numquam quidem praesentium ad blanditiis aut fugiat nisi excepturi itaque a. Sapiente possimus eos repellendus explicabo! Dicta ullam non soluta odit!
+                                        Quaerat ipsum sunt non doloremque eos dolore, dolor, iste necessitatibus ullam, nihil beatae quidem vero nesciunt. Asperiores provident adipisci ratione dolor. Sunt nesciunt architecto nostrum aperiam eaque sapiente necessitatibus autem.
+                                    </textarea>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h3>Your Avatar</h3>
+                    <img src="img/avatar.png" alt="" class="d-block img-fluid mb-3">
+                    <button class="btn btn-primary btn-block">Edit Image</button>
+                    <button class="btn btn-danger btn-block">Delete Image</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="main-footer" class="bg-dark text-white mt-5 p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="lead text-center">
+                        Copyright &copy;
+                        <span id="year"></span>
+                        Blogen
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- modals -->
+
+    <!-- add post modal -->
+    <div class="modal fade" id="add-post-modal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title">Add Post</h5>
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="title">Title</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="Category">Category</label>
+                            <select class="form-control">
+                                <option value="">Web Development</option>
+                                <option value="">Tech Gadgets</option>
+                                <option value="">Business</option>
+                                <option value="">Health & Wellness</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="image">Upload Image</label>
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="image">
+                                <label for="image" class="custom-file-label">Choose File</label>
+                            </div>
+                            <small class="form-text text-muted">Max Size 3mb</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="body">Body</label>
+                            <textarea name="editor1" class="form-control"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal">Save Changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- add category modal -->
+    <div class="modal fade" id="add-category-modal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title">Add Category</h5>
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="title">Title</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success" data-dismiss="modal">Save Changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- add user modal -->
+    <div class="modal fade" id="add-user-modal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-warning text-white">
+                    <h5 class="modal-title">Add User</h5>
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="password2">Confirm Password</label>
+                            <input type="password" class="form-control">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-warning" data-dismiss="modal">Save Changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.ckeditor.com/4.10.1/standard/ckeditor.js"></script>
+    <script>
+        //get the current year for copyright
+        $('#year').text(new Date().getFullYear());
+        CKEDITOR.replace('editor1');
+    </script>
+</body>
+
+</html>
